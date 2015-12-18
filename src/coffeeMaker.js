@@ -2,7 +2,7 @@
 
 class CoffeeMaker {
 	
-	var grinder;
+	grinder;
 	
 	constructor(grinder) {
 		this.grinder =grinder;	
