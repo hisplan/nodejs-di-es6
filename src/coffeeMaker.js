@@ -1,14 +1,12 @@
 "use strict";
 
-class CoffeeMaker {
-	
-	grinder;
-	
+export class CoffeeMaker {
+
 	constructor(grinder) {
-		this.grinder =grinder;	
+		this.grinder = grinder;
 	}
-	
+
 	brew() {
-		grinder.grind();
+		this.grinder.grind();
 	}
 }

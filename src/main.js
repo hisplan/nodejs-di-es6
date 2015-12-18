@@ -1,5 +1,7 @@
 "use strict";
 
+import {Injector} from 'di/injector';
+
 import {Grinder} from './grinder';
 import {CoffeeMaker} from './coffeeMaker';
 

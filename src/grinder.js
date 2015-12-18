@@ -1,6 +1,6 @@
 "use strict";
 
-class Grinder {
+export class Grinder {
 	
 	constructor() {
 		
@@ -10,7 +10,3 @@ class Grinder {
 		console.log('grind');
 	}
 }
-
-var grinder = new Grinder();
-
-grinder.grind();
