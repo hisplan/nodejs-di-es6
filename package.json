@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-di-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.3.13",
+    "di": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17"
+  }
+}
